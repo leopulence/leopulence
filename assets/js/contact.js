@@ -60,7 +60,7 @@ function initmap() {
                     zoom: 12,
 
                     // The latitude and longitude to center the map (always required)
-                    center: new google.maps.LatLng(51.507358, -0.127627), // New York
+                    center: new google.maps.LatLng(-34.578397140659554, -58.44101551182398), // New York
 
                     // How you would like to style the map. 
                     // This is where you would paste any style found on Snazzy Maps.
@@ -244,7 +244,7 @@ function initmap() {
                 var gmarker = {url: 'assets/images/gmap-icon.png',
                 scaledSize: new google.maps.Size(47, 65)};
             var beachMarker = new google.maps.Marker({
-            position: new google.maps.LatLng(51.507358, -0.127627),
+            position: new google.maps.LatLng(-34.55793570677681, -58.46177722079986),
             map: map,
             icon: gmarker
   });
